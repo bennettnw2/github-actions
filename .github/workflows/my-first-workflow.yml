@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-        echo Hello, world!
-        echo 'Welcome to Github Actions!'
+          echo Hello, world!
+          echo 'Welcome to Github Actions!'
