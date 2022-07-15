@@ -2,11 +2,11 @@ name: conditions in workflow
 on: push
 
 jobs:
-	job-1:
-		runs-on: ubuntu-latest
-		steps:
-		- id: job_1
-			run: echo successfully executes
+  job-1:
+    runs-on: ubuntu-latest
+    steps:
+      - id: job_1
+        run: echo successfully executes
   job-success:
       runs-on: ubuntu-latest
       needs: [job-1]
